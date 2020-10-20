@@ -224,7 +224,7 @@ p{
 
 .header__nav-switch.light{
     border: solid var(--dark-main-color) 1px;
-    background: transparent;
+    background: var(--light-main-color);
 }
 
 
