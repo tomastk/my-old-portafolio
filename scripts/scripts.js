@@ -38,3 +38,5 @@ modeSwitch.addEventListener("click", () => {
     }
     mode = localStorage.getItem("mode")
 })
+
+alert("Hola!")
