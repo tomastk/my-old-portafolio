@@ -152,6 +152,7 @@ p{
 
 .header__nav-networks{
     display: flex;
+    padding: 10px;
     justify-content: center;
 }
 
@@ -224,6 +225,10 @@ p{
 .header__nav-switch.light{
     border: solid var(--dark-main-color) 1px;
     background: var(--light-main-color);
+}
+
+.header__nav-switch:checked::after{
+    border: solid var(--dark-main-color 1px);
 }
 
 
