@@ -2,20 +2,15 @@ const menuSwitch = document.getElementById("menu-switch");
 const menu = document.getElementById("menu")
 const modeSwitch = document.getElementById("checkbox")
 const blackLogo = document.querySelector(".black_logo")
-
 if (localStorage.getItem("mode") === null){
     localStorage.setItem("mode", "dark")
 }
-
 let mode = localStorage.getItem("mode");
-
 if (mode === "light"){
     document.querySelectorAll("*").forEach(element => {
         element.classList.toggle("light")
     })   
 }
-
-
 menuSwitch.addEventListener("click", () => {
     menu.classList.toggle("active");
     document.querySelector(".header__logo").classList.toggle("active");
@@ -31,9 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("logo").style.display = "none"
     },1500)
 })
-
-
-
 modeSwitch.addEventListener("click", () => {
     document.querySelectorAll("*").forEach(element => {
         element.classList.toggle("light")
