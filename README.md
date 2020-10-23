@@ -1,15 +1,26 @@
 # Portafolio
-Este es el codigo fuente de mi portafolio.
+Este es el código fuente de mi portafolio. Aquí muestro mis proyectos actuales y todas las practicas que he hecho hasta ahora. Los proyectos que se muestran en este portafolio son meramente educativos, no son aplicados (*aún*) a un proyecto **real**.
 
-El portafolio utiliza las siguientes tecnologías:
+## Captura de Pantalla
 
--HTML: Es el lenguaje de marcado de mi sitio web.
--CSS: El lenguaje que le da estilos a mi sitio web.
-- JS: El lenguaje que hace dinámico mi sitio web.
+## Lenguajes Utilizados en el sitio web:
 
-Además, utiliza normalize.css (una librería externa de CSS que sirve para resetear por defecto los estilos del navegador)
+* **HTML**: HTML Vanilla, sin ningun preprocesador.
 
-BUGS A SOLUCIONAR:
+* **CSS**: CSS Vanilla, sin ningun framework o libreria.
 
-1. Hacer que si ya has visto el logo, no se te vuelva a mostrar.
-2. Hacer que si ya has presionado el boton del menú, no se vuelva a presionar.
+* **JS**: Javascript Vanilla, sin ningun framework ni libreria.
+
+### Extras Utilizados:
+
+- Libreria Normalize.css para resetear los estilos del navegador
+- Google Fonts para añadir la fuente Poppins
+- Font Awesome para darle los iconos
+
+## Ver la demo
+
+[TomásTK](https://tomastk.github.io/portafolio)
+
+#### Esta es una página totalmente open Source. Si quieres usar el código, tienes toda la libertad.
+
+-TomasTK
