@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TomásTK Portfolio</title>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <!--Iconify-->
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <!--Own Styles-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body class="body dark">
+    <div class="logo" id="logo">
+        <div class="mitad1">
+            <img src="assets/img/logo.png" alt="Logo de TomásTK" />
+        </div>
+        <div class="mitad2"></div>
+    </div>
+    <div class="container">
+        <header class="header dark">
+            <div class="header__logo-container">
+                <a href="/portafolio">
+                    <h1 class="header__name dark">TomasTK</h1>
+                </a>
+                <img src="assets/img/logo.png" width="120px" alt="Logo de TomásTK" style="color: black"
+                    class="header__logo" id="menu-switch" />
+            </div>
+            <nav class="header__nav" id="menu">
+                <div class="header__nav-networks">
+                    <a href="https://github.com/tomastk" class="header__github">
+                        <span class="iconify header__nav-github" data-inline="false"
+                            data-icon="ant-design:github-filled" style="font-size: 100px"></span>
+                    </a>
+                    <a href="https://instagram.com/tomastk_" target="_blank" class="header__instagram">
+                        <span class="iconify header__nav-instagram" data-inline="false"
+                            data-icon="ant-design:instagram-filled" style="font-size: 100px"></span>
+                    </a>
+                </div>
+                <input type="checkbox" id="checkbox" class="header__nav-switch" />
+            </nav>
+        </header>
+        <main class="project">
+            <h1 class="project__name">Clases en el 2021</h1>
+            <div class="project__img clases-en-el-2021"></div>
+            <div class="project__desc">
+                <p>
+                    "Clases en el 2021" es un sitio web en el que puedes acceder a los días que faltan para que vuelvan las clases en el 2021. 
+                </p>
+                <p>
+                    El sitio web está desarrollado en HTML, CSS y obtiene los días en Javascript. El funcionamiento es sencillo: cada provincia tiene un atributo date que contiene el día en el que inician sus clases, y con javascript hago una resta de días entre esa fecha y la fecha actual.
+                </p>
+                <div class="project__url">
+                    <a href="https://clases-en-el-2021.tk" target="_blank">Ver la Demo</a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer__credits">TomasTk &copy; 2020</p>
+        </footer>
+    </div>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

@@ -331,6 +331,10 @@ p{
     background-image: url(../img/calculator.png)
 }
 
+.clases-en-el-2021 {
+    background-image: url(../img/clases-2021.png)
+}
+
 .footer{
     background-color: var(--light-main-color);
     margin: 0;
