@@ -228,7 +228,7 @@ p{
 }
 
 .header__nav-switch:checked::after{
-    border: solid var(--dark-main-color 1px);
+    border: solid var(--dark-main-color) 1px;
 }
 
 
