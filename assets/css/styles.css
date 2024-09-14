@@ -529,6 +529,7 @@ p{
 
 .breadcrumbs {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -582,4 +583,11 @@ p{
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .frontend, .backend {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
