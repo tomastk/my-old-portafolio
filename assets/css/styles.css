@@ -71,10 +71,12 @@ p{
 
 
 .body.dark{
+    color: white;
     background-color: var(--dark-main-color);
 }
 
 .body.light{
+    color: #131212;
     background-color: var(--light-main-color);
 }
 
@@ -585,7 +587,7 @@ p{
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .frontend, .backend {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
