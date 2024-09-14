@@ -563,3 +563,23 @@ p{
 .section__projects-title {
     margin-top: 20px;
 }
+
+/* Seccion de Habilidades */
+
+.tecnologias {
+    color:white;
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.frontend, .backend {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
