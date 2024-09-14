@@ -80,6 +80,9 @@ p{
     background-color: var(--light-main-color);
 }
 
+.body.light .tecnologias {
+    color: black;
+}
 
 /* Estilos al header */
 .header{
