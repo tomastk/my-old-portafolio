@@ -9,6 +9,9 @@
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
+img {
+    max-width: 100%;
+}
 
 .logo{
     height: 100vh;
@@ -81,6 +84,7 @@ p{
     height: 100px;
 }
 .header__logo-container{
+    top: 0;
     display: flex;
     align-items: center;
     padding: 30px;
@@ -336,6 +340,7 @@ p{
 }
 
 .footer{
+    bottom: 0;
     background-color: var(--light-main-color);
     margin: 0;
     font-size: 25px;
@@ -489,4 +494,72 @@ p{
         margin-top: 30px;
     }
 
+}
+
+.hero__span {
+    color: darkred;
+}
+
+/* Sección de Proyectos: 2024 */
+
+.section__projects {
+    display: flex;
+    max-width: 80%;
+    margin: 20px auto;
+    color: white;
+    flex-direction: column;
+}
+
+.projects {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-main-color);
+    color: var(--dark-main-color);
+}
+
+.breadcrumbs {
+    display: flex;
+    gap: 10px;
+}
+
+.breadcrumb {
+    background-color: #D72424;
+    padding: 10px;
+    color: white;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+.project .link {
+    color: var(--dark-main-color);
+    border: solid rgba(0,0,0,.3) 1px;
+    padding: 20px;
+    border-radius: 30px;
+    transition: .3s ease all;
+}
+
+.project .link:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.section__projects-title {
+    margin-top: 20px;
 }
